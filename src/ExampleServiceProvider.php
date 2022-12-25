@@ -2,9 +2,9 @@
 
 namespace Mediasciencejp\Example;
 
+use Mediasciencejp\Example\Commands\ExampleCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Mediasciencejp\Example\Commands\ExampleCommand;
 
 class ExampleServiceProvider extends PackageServiceProvider
 {
